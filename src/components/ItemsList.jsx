@@ -6,7 +6,7 @@ const ItemsList = ({ item, setItem, setItemToggle, currentItem }) => {
 	// console.log(item);
 	return (
 		<>
-			<header className="  bg-lightGreen shadow-lg">
+			<header className="  bg-lightGreen shadow-lg z-10">
 				<div className=" flex justify-between items-center p-5">
 					<button
 						onClick={() => setItemToggle(false)}
@@ -17,7 +17,7 @@ const ItemsList = ({ item, setItem, setItemToggle, currentItem }) => {
 						OASIS <span className="text-mainYellow">CABANA</span>
 					</p>
 				</div>
-				<div className="px-5 flex mt-5 ">
+				<div className="px-5 flex mt-5 z-10 shadow-lg">
 					{menuItems.map((i, index) => (
 						<div
 							key={index}

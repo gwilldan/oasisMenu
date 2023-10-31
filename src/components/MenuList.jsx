@@ -31,6 +31,7 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 				<img
 					src={Vector}
 					alt="vector"
+					className=" w-[700px] sm:w-full"
 				/>
 				<section className=" absolute h-full w-full top-0 grid place-content-center text-center">
 					<img
@@ -46,7 +47,7 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 				</section>
 			</nav>
 
-			<aside className=" p-4 ">
+			<aside className=" p-4  ">
 				<h2 className=" text-darkGreen font-semibold text-xl">Menu</h2>
 				<section className=" flex flex-col gap-2  my-5">
 					{menuItems.map((i, index) => (
@@ -66,6 +67,7 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 			<img
 				src={Vector}
 				alt="vector"
+				className="  w-[700px] md:w-full"
 			/>
 
 			<footer className=" text-darkGreen fixed bottom-0 w-full h-10 p-2 flex justify-between ">
