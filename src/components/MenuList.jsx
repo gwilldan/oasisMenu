@@ -19,16 +19,18 @@ const MenuList = () => {
 				<section className=" absolute h-full w-full top-0 grid place-content-center text-center">
 					<img
 						src={Logo}
-						className=" h-[140px] w-[140px] mx-auto "
+						className=" h-[130px] w-[130px] mx-auto "
 					/>
-					<h1 className=" text-2xl font-bold text-white ">Hey! Foodie</h1>
+					<h1 className=" mb-[-5px] text-2xl font-bold text-white ">
+						Hey! Foodie
+					</h1>
 					<p className=" text-mainYellow font-semibold">
 						Here's our menu for today
 					</p>
 				</section>
 			</nav>
 
-			<main className=" p-4 ">
+			<aside className=" p-4 ">
 				<h2 className=" text-darkGreen font-semibold text-xl">Menu</h2>
 				<section className=" flex flex-col gap-2  my-5">
 					{menuItems.map((i, index) => (
@@ -41,7 +43,11 @@ const MenuList = () => {
 						</button>
 					))}
 				</section>
-			</main>
+			</aside>
+			<img
+				src={Vector}
+				alt="vector"
+			/>
 		</main>
 	);
 };
