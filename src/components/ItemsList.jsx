@@ -39,8 +39,10 @@ const ItemsList = ({ item, setItem, setItemToggle, currentItem }) => {
 							key={index}
 							className="  bg-green-50 h-[120px] max-h-[120px] grid grid-cols-[70%_30%] shadow-lg rounded-lg p-2 gap-1 ">
 							<div className=" h-full flex flex-col ">
-								<h1 className=" text-lg font-bold"> {i.name}</h1>
-								<p className="text-[12px] flex-1 font-light ">{i.des}</p>
+								<h1 className=" text-lg font-bold text-darkGreen"> {i.name}</h1>
+								<p className="text-[12px] flex-1 font-light  text-darkGreen ">
+									{i.des}
+								</p>
 								<p className=" text-mainYellow font-bold">{i.price}</p>
 							</div>
 							<div className=" w-[90px] grid place-content-center">

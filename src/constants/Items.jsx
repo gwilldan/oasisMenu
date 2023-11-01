@@ -5,6 +5,12 @@ import specialChicken from "../assets/chickenShawarma.jpeg";
 import miniSpecial from "../assets/minispecial.jpeg";
 import newSha from "../assets/newSha.jpeg";
 
+import beets from "../assets/beets.jpeg";
+import apple from "../assets/apple.jpeg";
+import creamside from "../assets/creamside.jpeg";
+import avocado from "../assets/avocado.jpeg";
+import pawpaw from "../assets/pawpa.jpeg";
+
 // ANY CHANGES MADE ON THE ITEM VARIABLES SHOULD BE INCLUDED IN THE useEffect which is on thee APP component (MAKE SURE TO IMPORT IT TOO) and also the menuItems component.
 
 export const Shawarma = [
@@ -56,31 +62,37 @@ export const Smoothie = [
 		name: "Beets",
 		des: "Carefully made from Banana, watermelon, pineapple and beats ",
 		price: "N 1,500",
-		img: beefShawarma,
+		img: beets,
 	},
 	{
 		name: "Melapple",
 		des: "Lovely mix from apple, watermelon, banana and pineapple ",
 		price: "N2,100",
-		img: beefShawarma,
+		img: apple,
 	},
 	{
 		name: "Creamside",
 		des: "A Banana, pineapple, avocado and cucumber mix ",
 		price: "N 2,400",
-		img: beefShawarma,
+		img: creamside,
+	},
+	{
+		name: "Avocalada",
+		des: "An avocado, pineapple, banana and cucumber mix ",
+		price: "N 2,400",
+		img: avocado,
 	},
 	{
 		name: "Papina",
 		des: "Flavored from pawpaw, pineapple, banana and cucumber ",
 		price: "N 1500",
-		img: beefShawarma,
+		img: pawpaw,
 	},
 	{
 		name: "Tigernuts",
 		des: "Processed from Tigernuts, watermelons, date and banana ",
 		price: "N 1500",
-		img: beefShawarma,
+		img: avocado,
 	},
 ];
 
