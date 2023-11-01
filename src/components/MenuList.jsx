@@ -59,7 +59,7 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 								setItem(i);
 							}}>
 							<p className=" text-darkGreen font-semibold ">{i}</p>
-							<FaChevronRight className="text-mainYellow" />
+							<FaChevronRight className="text-mainYellow " />
 						</button>
 					))}
 				</section>

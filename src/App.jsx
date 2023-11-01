@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { MenuList, ItemsList } from "./components";
 import { motion, AnimatePresence } from "framer-motion";
-import { Shawarma, Drinks, Parfait } from "./constants/Items";
+import { Shawarma, Smoothie, Parfait } from "./constants/Items";
 import { useEffect } from "react";
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
 
 	useEffect(() => {
 		item == "Shawarma" && setCurrentItem(Shawarma);
-		item == "Drinks" && setCurrentItem(Drinks);
+		item == "Smoothie" && setCurrentItem(Smoothie);
 		item == "Parfait" && setCurrentItem(Parfait);
 	}, [item]);
 
