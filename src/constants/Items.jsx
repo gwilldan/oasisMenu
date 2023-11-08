@@ -10,6 +10,8 @@ import apple from "../assets/apple.jpeg";
 import creamside from "../assets/creamside.jpeg";
 import avocado from "../assets/avocado.jpeg";
 import pawpaw from "../assets/pawpa.jpeg";
+import parfait from "../assets/parfait.jpeg";
+import burger from "../assets/burger.jpg";
 
 // ANY CHANGES MADE ON THE ITEM VARIABLES SHOULD BE INCLUDED IN THE useEffect which is on thee APP component (MAKE SURE TO IMPORT IT TOO) and also the menuItems component.
 
@@ -17,7 +19,7 @@ export const Shawarma = [
 	{
 		name: "Beef Regular",
 		des: " Savor the flavor; with one sausage and sizeable amount of Beef ",
-		price: "N 1,800",
+		price: "N 1,900",
 		img: beefShawarma,
 	},
 
@@ -31,7 +33,7 @@ export const Shawarma = [
 	{
 		name: "Special Beef",
 		des: "Has Two sausages and lots of beef",
-		price: "N 2,100",
+		price: "N 2,200",
 		img: specialBeef,
 	},
 
@@ -45,14 +47,14 @@ export const Shawarma = [
 	{
 		name: "Special Shawarma",
 		des: "This is a combo of chicken and beef and two sausages",
-		price: "N 2,300",
+		price: "N 2,400",
 		img: newSha,
 	},
 
 	{
 		name: "Mini Special",
 		des: "Also a combo of chicken and beef but with one sausage",
-		price: "N 2,000",
+		price: "N 2,100",
 		img: miniSpecial,
 	},
 ];
@@ -67,40 +69,58 @@ export const Smoothie = [
 	{
 		name: "Melapple",
 		des: "Lovely mix from apple, watermelon, banana and pineapple ",
-		price: "N2,100",
+		price: "N 1,500",
 		img: apple,
 	},
 	{
 		name: "Creamside",
 		des: "A Banana, pineapple, avocado and cucumber mix ",
-		price: "N 2,400",
+		price: "N 1,500",
 		img: creamside,
 	},
 	{
 		name: "Avocalada",
 		des: "An avocado, pineapple, banana and cucumber mix ",
-		price: "N 2,400",
+		price: "N 1,500",
 		img: avocado,
 	},
 	{
 		name: "Papina",
 		des: "Flavored from pawpaw, pineapple, banana and cucumber ",
-		price: "N 1500",
+		price: "N 1,500",
 		img: pawpaw,
 	},
 	{
 		name: "Tigernuts",
-		des: "Processed from Tigernuts, watermelons, date and banana ",
-		price: "N 1500",
+		des: "Special smoothie from Tigernuts, watermelons, date and banana blend ",
+		price: "N 1,500",
 		img: avocado,
+	},
+];
+
+export const Milkshake = [
+	{
+		name: "Milky shakes",
+		des: "Classic milk drink, flavoured with nutritious fruit blends",
+		price: "N 2,000",
+		img: avocado,
+	},
+];
+
+export const Burger = [
+	{
+		name: "COMING SOON!!!!!",
+		des: "We are undergoing product testing to give you the best. This product will be available in no distant time. ",
+		price: "N - ---",
+		img: burger,
 	},
 ];
 
 export const Parfait = [
 	{
-		name: "Smoothie",
-		des: "Very delicious smoothie mix with some ",
-		price: "N 2,000",
-		img: beefShawarma,
+		name: "COMING SOON!!!!!",
+		des: "We are undergoing product testing to give you the best. This product will be available in no distant time. ",
+		price: "N - ---",
+		img: parfait,
 	},
 ];

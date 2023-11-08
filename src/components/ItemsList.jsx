@@ -17,11 +17,11 @@ const ItemsList = ({ item, setItem, setItemToggle, currentItem }) => {
 						OASIS <span className="text-mainYellow">CABANA</span>
 					</p>
 				</div>
-				<div className="px-5 flex mt-5 z-10 shadow-lg">
+				<div className="mx-2 flex mt-5 z-10 shadow-lg no-scrollbar">
 					{menuItems.map((i, index) => (
 						<div
 							key={index}
-							className={` font-semibold pb-1 text-darkGreen border-b-[2px] px-2 ${
+							className={` font-semibold pb-1 text-darkGreen border-b-[2px] px-[6px] ${
 								item == i && " border-b-darkGreen"
 							}`}
 							type="button"
