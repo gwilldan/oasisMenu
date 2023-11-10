@@ -76,7 +76,7 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 					<p>1 Atiku Avenue, Uyo</p>
 				</div>
 				<section className=" flex items-center gap-1 text-2xl  ">
-					<a href="https://wa.me/2349011998820">
+					<a href="https://wa.me/2349117466084">
 						<FaWhatsapp />
 					</a>
 					<a
