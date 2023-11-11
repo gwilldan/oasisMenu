@@ -120,7 +120,7 @@ export const Burger = [
 	{
 		name: "Regular Burger",
 		des: "Hamburger with sizeable meat, mixed with tomato, onions and vegetable toppings. ",
-		price: "N 2,500",
+		price: "N 2,000",
 		img: regurlarBurger,
 	},
 ];
