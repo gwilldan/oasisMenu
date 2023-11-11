@@ -1,7 +1,7 @@
 export const menuItems = [
 	"Shawarma",
+	"Burger",
 	"Smoothie",
 	"Milkshake",
-	"Burger",
 	"Parfait",
 ];

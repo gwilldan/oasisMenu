@@ -4,6 +4,8 @@ import specialBeef from "../assets/special.jpeg";
 import specialChicken from "../assets/chickenShawarma.jpeg";
 import miniSpecial from "../assets/minispecial.jpeg";
 import newSha from "../assets/newSha.jpeg";
+import Tigernut from "../assets/tigernut.jpeg";
+import milkshakes from "../assets/milkshake.jpeg";
 
 import beets from "../assets/beets.jpeg";
 import apple from "../assets/apple.jpeg";
@@ -12,6 +14,7 @@ import avocado from "../assets/avocado.jpeg";
 import pawpaw from "../assets/pawpa.jpeg";
 import parfait from "../assets/parfait.jpeg";
 import burger from "../assets/burger.jpg";
+import regurlarBurger from "../assets/regurlarBurger.jpeg";
 
 // ANY CHANGES MADE ON THE ITEM VARIABLES SHOULD BE INCLUDED IN THE useEffect which is on thee APP component (MAKE SURE TO IMPORT IT TOO) and also the menuItems component.
 
@@ -91,10 +94,10 @@ export const Smoothie = [
 		img: pawpaw,
 	},
 	{
-		name: "Tigernuts",
+		name: "Tigernut smoothie",
 		des: "Special smoothie from Tigernuts, watermelons, date and banana blend ",
 		price: "N 1,500",
-		img: avocado,
+		img: Tigernut,
 	},
 ];
 
@@ -103,16 +106,22 @@ export const Milkshake = [
 		name: "Milky shakes",
 		des: "Classic milk drink, flavoured with nutritious fruit blends",
 		price: "N 2,000",
-		img: avocado,
+		img: milkshakes,
 	},
 ];
 
 export const Burger = [
 	{
-		name: "COMING SOON!!!!!",
-		des: "We are undergoing product testing to give you the best. This product will be available in no distant time. ",
-		price: "N - ---",
+		name: "Cheeseburger",
+		des: "Hamburger with slices of melted cheese on top of meat lumps, mixed with tomato, onions and vegetable toppings. ",
+		price: "N 2,500",
 		img: burger,
+	},
+	{
+		name: "Regular Burger",
+		des: "Hamburger with sizeable meat, mixed with tomato, onions and vegetable toppings. ",
+		price: "N 2,500",
+		img: regurlarBurger,
 	},
 ];
 
