@@ -1,7 +1,1 @@
-export const menuItems = [
-	"Shawarma",
-	"Burger",
-	"Smoothie",
-	"Milkshake",
-	"Parfait",
-];
+export const menuItems = ["Shawarma", "Burger", "Smoothie", "Parfait"];

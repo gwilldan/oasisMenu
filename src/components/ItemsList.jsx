@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaChevronLeft } from "react-icons/fa6";
 import { menuItems } from "../constants/menuItems";
 

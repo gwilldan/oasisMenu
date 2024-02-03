@@ -3,7 +3,7 @@ import Vector from "../assets/vector.svg";
 import Logo from "../assets/oasisLogo.png";
 import { FaChevronRight } from "react-icons/fa6";
 import { menuItems } from "../constants/menuItems";
-import { easeIn, easeInOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 import { BiLogoInstagramAlt, BiLogoFacebookCircle } from "react-icons/bi";
 import { FaWhatsapp, FaLocationDot } from "react-icons/fa6";
 
@@ -26,18 +26,12 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 			style={{
 				height: "100dvh",
 				width: "100dvw",
-			}}>
+			}}
+		>
 			<nav className=" h-[215px] bg-darkGreen relative overflow-hidden">
-				<img
-					src={Vector}
-					alt="vector"
-					className=" w-[700px] sm:w-full"
-				/>
+				<img src={Vector} alt="vector" className=" w-[700px] sm:w-full" />
 				<section className=" absolute h-full w-full top-0 grid place-content-center text-center">
-					<img
-						src={Logo}
-						className=" h-[130px] w-[130px] mx-auto "
-					/>
+					<img src={Logo} className=" h-[130px] w-[130px] mx-auto " />
 					<h1 className=" mb-[-5px] text-2xl font-bold text-white ">
 						Hey! Foodie
 					</h1>
@@ -57,18 +51,15 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 							onClick={() => {
 								setItemToggle(true);
 								setItem(i);
-							}}>
+							}}
+						>
 							<p className=" text-darkGreen font-semibold ">{i}</p>
 							<FaChevronRight className="text-mainYellow " />
 						</button>
 					))}
 				</section>
 			</aside>
-			<img
-				src={Vector}
-				alt="vector"
-				className="  w-[700px] md:w-full"
-			/>
+			<img src={Vector} alt="vector" className="  w-[700px] md:w-full" />
 
 			<footer className=" text-darkGreen fixed bottom-0 w-full h-10 p-2 flex justify-between ">
 				<div className=" flex items-center gap-2">
@@ -79,14 +70,10 @@ const MenuList = ({ itemToggle, setItemToggle, setItem }) => {
 					<a href="https://wa.me/2349117466084">
 						<FaWhatsapp />
 					</a>
-					<a
-						href="https://instagram.com/oasiscabanauyo"
-						target="_blank">
+					<a href="https://instagram.com/oasiscabanauyo" target="_blank">
 						<BiLogoInstagramAlt />
 					</a>
-					<a
-						href="https://www.facebook.com/oasiscabanauyo"
-						target="_blank">
+					<a href="https://www.facebook.com/oasiscabanauyo" target="_blank">
 						<BiLogoFacebookCircle />
 					</a>
 				</section>
